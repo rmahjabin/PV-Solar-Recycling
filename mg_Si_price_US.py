@@ -1,8 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
 
 import pandas as pd
 
@@ -20,10 +15,4 @@ def calculate_mg_si_prices(polysilicon_price_US):
     df['mg_si_price'] = df['total_cost_per_kg'].apply(calculate_price)
     
     return df
-
-
-# In[ ]:
-
-
-
 
